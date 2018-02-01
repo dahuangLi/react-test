@@ -1,0 +1,44 @@
+.color{
+    color:blue;
+}
+.ant-layout-footer{
+    height: 0;
+    padding: 0;
+}
+.ant-layout-header{
+    background-color: #F5F5F5;
+    height: 88px;
+    padding: 0 20px;
+}
+.spanCtr{
+    line-height: 88px;
+    font-size: 15px;
+}
+.textRight{
+    text-align: right;
+    margin-bottom: 30px;
+}
+.textSpan{
+    color: rgba(0, 0, 0, 0.85);
+    position: relative;
+    font-size: 14px;
+    content: ":";
+    margin: 0 8px 0 2px;
+    position: relative;
+    top: -0.5px;
+}
+.ant-menu{
+    background-color: #F5F5F5;
+}
+.ant-layout-content{
+    background-color: #fff;
+}
+.rowBottomLine{
+    border-bottom:5px solid #eee;
+}
+.contentLeftLine{
+    border-left:5px solid #eee;
+}
+.ant-layout-sider{
+    background-color: #F5F5F5;
+}

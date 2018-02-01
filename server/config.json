@@ -1,0 +1,394 @@
+{
+  "appinfo":{
+    "appkey": "3922527656",
+    "secretkey": "09a38a569602cb9b1252ea617f11ae10"
+  },
+  "sessionTime": 30000,
+  "cacheTime": 0,
+  "redis": {
+    "client": {},
+    "hostname": "172.20.66.156",
+    "port": 6379,
+    "socket": "",
+    "db": "10"
+  },
+  "development": {
+    "ip": "127.0.0.1",
+    "port": "3006",
+    "cluster": false,
+    "fileSever": {
+      "hostname": "http://jmcdev2.timanetwork.com/resource"
+    },
+    "cdn": "",
+    "appinfo": {
+      "appkey": "3922527656",
+      "secretkey": "09a38a569602cb9b1252ea617f11ae10"
+    },
+    "sessionTime": 720000,
+    "cacheTime": 0,
+    "redis": {
+      "client": {},
+      "hostname": "127.0.0.1",
+      "port": 6379,
+      "socket": "",
+      "db": "5"
+    },
+    "log": {
+      "appName": "koa-react",
+      "path": "",
+      "name": "app.log"
+    },
+    "adminServerService": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/user/",
+      "clientType": "BROWSER"
+    },
+    "ModuleManagementService": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/module/",
+      "clientType": "BROWSER"
+    },
+    "taskService": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/task/",
+      "clientType": "BROWSER"
+    },
+    "taskFeedbackService": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/task/assigns/",
+      "clientType": "BROWSER"
+    },
+    "configService": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/issue/",
+      "clientType": "BROWSER"
+    },
+    "configDbcService": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/dbc/",
+      "clientType": "BROWSER"
+    },
+    "PermissionService": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/dataFilter/",
+      "clientType": "BROWSER"
+    },
+    "roleListServer": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/user/",
+      "clientType": "BROWSER"
+    },
+    "roleListAll": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/role/",
+      "clientType": "BROWSER"
+    },
+    "vdrUserAdd": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/user/",
+      "clientType": "BROWSER"
+    },
+    "vdrUserInfo": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/user/",
+      "clientType": "BROWSER"
+    },
+    "useDelete": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/user/",
+      "clientType": "BROWSER"
+    },
+    "UserForbidden": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/user/",
+      "clientType": "BROWSER"
+    },
+    "roleListfindServer": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/role/",
+      "clientType": "BROWSER"
+    },
+    "updataServerServer": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/role/"
+    },
+    "updataStatuServerServer": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/role/"
+    },
+    "vehicleList": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/vehicle/"
+    },
+    "updataDelServerServer": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/role/"
+    },
+    "roleAdd": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/role/"
+    },
+    "tboxList": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/tbox/"
+    },
+    "simList": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/sim/"
+    },
+    "tboxsimList": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/tboxsim/"
+    },
+    "ImportGroupService": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/vehicle/"
+    },
+    "rolePermitTree": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/role/"
+    },
+    "SZupdatePermit2": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/role/"
+    },
+    "tboxImportService": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/tbox/"
+    },
+    "simImportService": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/sim/"
+    },
+    "tboxsimImportService": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/tboxsim/"
+    },
+    "vehicleModeService": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/vehicleMode/"
+    },
+    "vehicleModeSaveService": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/vehicleMode/"
+    },
+    "vehicleModeInfoService": {
+      "host":  "http://172.20.66.154:9300/",
+      "uri": "vdr-console/vehicleMode/"
+    },
+    "vehicleModeDeleteService": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/vehicle/"
+    },
+    "vehicleInfoService": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/vehicleMode/"
+    },
+    "getTestSiteListServiceServer": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/test-basis/"
+    },
+    "getaddTestSiteServer": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/test-basis/"
+    },
+    "updataStatusMainServerServer": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/test-basis/"
+    },
+    "vehicleModeListCan": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/vehicleMode/"
+    },
+    "vehicleModeAddCan": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/vehicleMode/"
+    },
+    "vehicleModeDeleteCan": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/vehicleMode/"
+    },
+    "getexperimentalListServiceServer": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/test-basis/"
+    },
+    "getaddexperServerServer": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/test-basis/"
+    },
+    "updataGroupServerServer": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/test-basis/"
+    },
+    "getUdsListServiceServer": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/test-basis/"
+    },
+    "addUdsUDMaintenanceServerServer": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/test-basis/"
+    },
+    "updateUDSserviceStatusServerServer": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/test-basis/"
+    },
+    "getUdsParamsBySubIdServerServer": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/test-basis/"
+    },
+    "getUdsDetailServiceServer": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/test-basis/"
+    },
+    "getdriverMainListServiceServer": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/test-basis/"
+    },
+    "addDriverServerServer": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/test-basis/"
+    },
+    "updateDriverStatusServerServer": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/test-basis/"
+    },
+    "getgetDriverDetailServiceServer": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/test-basis/"
+    },
+    "getTestGroupList4SelectServiceServer": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/test-basis/"
+    },
+    "vehicleReset": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/vehicle/"
+    },
+    "vehicleModeAll": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/vehicleMode/"
+    },
+    "vehicleInfo": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/vehicle/"
+    },
+    "vehicleSave": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/vehicle/"
+    },
+    "vehDelete":{
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/vehicleMode/"
+    },
+    "vehicleDelete":{
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/vehicle/"
+    },
+    "tboxSave": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/tbox/"
+    },
+    "tboxResetState": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/tbox/"
+    },
+    "tboxDelete": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/tbox/"
+    },
+    "diagnosticsList": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/diagnostics/"
+    },
+    "simDelete": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/sim/"
+    },
+    "mmsgetAlarmItemListServiceService": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/alarm/"
+    },
+    "getallService": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/vehicleMode/"
+    },
+    "addAlarmItemServerService": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/alarm/"
+    },
+    "updateAlarmItemStatusServerService": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/alarm/"
+    },
+    "simResetState": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/sim/"
+    },
+    "tboxsimAdd": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/tboxsim/"
+    },
+    "tboxsimState": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/tboxsim/"
+    },
+    "tboxsimDelete": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/tboxsim/"
+    },
+    "tboxsimInfo": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/tboxsim/"
+    },
+    "getAlarmItemDetailServiceService": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/alarm/"
+    },
+    "getAlarmConditionsServiceService": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/alarm/"
+    },
+    "addAlarmCondtionsServerService": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/alarm/"
+    },
+    "logSystemService":{
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/log/"
+    },
+    "getAlarmIssueRolesServiceService": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/alarm/"
+    },
+    "msgetAllRolesServiceService": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/role/"
+    },
+    "diagnosticsAddServer":{
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/diagnostics/"
+    },
+    "diagnosticsToEdit":{
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/diagnostics/"
+    },
+    "diagnosticsEdit":{
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/diagnostics/"
+    },
+    "addAlarmIssueRolesServiceService": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/alarm/"
+    },
+    "diagnosticsUseFlag": {
+        "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/diagnostics/"
+    },
+    "diagnosticsDelete": {
+      "host": "http://172.20.66.154:9300/",
+      "uri": "vdr-console/diagnostics/"
+    }
+  }
+}
+
+
