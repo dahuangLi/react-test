@@ -285,19 +285,14 @@ async function ajaxTransfer(options){
     console.log(options);
     var response
 
-    await rp(options)
-        .then(function (parsedBody) {
-            console.log(parsedBody)
-            response = parsedBody;
-        })
-        .catch(function (err) {
-            response = err;
-        });
-    if(response == undefined){
-         ajaxTransfer(options);
-    } else {
-        return response;
-    }
+    return  await rp(options)
+            .then(function (parsedBody) {
+                console.log(parsedBody)
+                return  response = parsedBody;
+            })
+            .catch(function (err) {
+                response = err;
+            });
 }
 
 

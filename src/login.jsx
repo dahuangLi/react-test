@@ -4,7 +4,6 @@ import { Input, Icon,Row,Col,Button } from 'antd';
 import { BrowserRouter as Router, Route, Switch ,Link} from 'react-router-dom';
 import { AppContainer } from 'react-hot-loader';
 import Index from './store/index';
-// import Login from './component/login';
 import RouterShow from './component/index';
 import List from './container/List';
 import './less/login.less'; 

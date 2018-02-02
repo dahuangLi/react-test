@@ -18,7 +18,7 @@ const RealtimeConfig = Form.create({
       props.handleFormChange(values);
     },
   })((props) => {
-    const {  onChange, realtimeAddShowModal, form, roleName,btnCtr,dateChange } = props;
+    const {  onChange, realtimeAddShowModal, form, roleName,btnCtr,dateChange,selectChange } = props;
     const { getFieldDecorator } = form;
     return (
             <Form layout="inline" className="formPadding">
@@ -44,7 +44,13 @@ const RealtimeConfig = Form.create({
                         >
                             {getFieldDecorator('userState',{
                                 rules: [{ required: false, message: '请输入新密码!' }],
-                            })(<Input/>)}
+                            })(
+                                <Select onChange={selectChange}>
+                                    <Select.Option value="0">全部</Select.Option>
+                                    <Select.Option value="1">禁用</Select.Option>
+                                    <Select.Option value="2">启用</Select.Option>
+                                </Select>
+                            )}
                         </FormItem>
                     </Col>
                     <Col span={2}>
@@ -349,6 +355,9 @@ export default class RoleManagement extends Component{
             }
         })
     }
+    selectChange = (value) =>{
+        console.log(value)
+    }
     render() {
         const fields = this.state.fields;
         const { visible, confirmLoading, ModalText,ModalTitle } = this.state;
@@ -419,6 +428,7 @@ export default class RoleManagement extends Component{
                     handleFormChange={this.handleFormChange}
                     btnCtr = {this.state.btnCtr}
                     dateChange = {this.dateChange}
+                    selectChange = {this.selectChange}
                 />
                 <div className="formPadding" >
                     <Table
